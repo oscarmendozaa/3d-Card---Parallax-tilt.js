@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-image" ></div>
+      <div class="card-text">
+        <h2>Parallax Efect</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, Ducimus, repudiandae temporibus omnis illum maxime quod deserunt eligendi dolor</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card2"></div>
+      <div class="card-text">
+        <h2>Parallax Efect</h2>
+        <p>Adipisicing elit. Ducimus, repudiandae corrupti amet temporibus omnis provident illum maxime quod. Lorem ipsum dolor</p>
+      </div>
+    </div>
+    <div class="card">
+        <div class="card3"></div>
+        <div class="card-text">
+          <h2>Parallax Efect</h2>
+          <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor adipisicing elit</p>
+        </div>
+    </div>
+    <script src="vanilla-tilt.min.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".card"),{
+        glare: true,
+        reverse: true,
+        "max-glare": 0.6,
+        max: 20
+      });
+    </script>
+  </body>
+</html>
